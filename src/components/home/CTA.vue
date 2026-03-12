@@ -39,7 +39,7 @@
 
       <!-- CTA buttons -->
       <div class="cta-group" :class="{ visible: visible }">
-        <button class="btn-primary" @mouseenter="btnHover = true" @mouseleave="btnHover = false">
+        <button class="btn-primary" @mouseenter="btnHover = true" @mouseleave="btnHover = false" @click="goToContact"> 
           <span class="btn-fill"></span>
           <span class="btn-content">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -50,7 +50,7 @@
           <span class="btn-arrow">←</span>
         </button>
 
-        <button class="btn-ghost">
+        <button class="btn-ghost" @click="goToContact">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
           </svg>
@@ -80,11 +80,16 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import { useRouter } from "vue-router";
 
 const sectionRef = ref(null);
 const visible = ref(false);
 const btnHover = ref(false);
+const router = useRouter();
 
+function goToContact() {
+  router.push("/contact");
+}
 function particleStyle(n) {
   const size = Math.random() * 6 + 3;
   const left = (n / 12) * 100;

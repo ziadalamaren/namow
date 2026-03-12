@@ -88,7 +88,7 @@
                 </ul>
 
                 <!-- CTA button -->
-                <a href="/contact" class="pkg-btn" :class="`pkg-btn--${pkg.variant}`">
+                <a href="https://wa.me/962777210884?text=I%20need%20a%20service" class="pkg-btn" :class="`pkg-btn--${pkg.variant}`">
                   <span class="pkg-btn-bg"    v-if="!pkg.featured"></span>
                   <span class="pkg-btn-shine" v-if="pkg.featured"></span>
                   <span class="pkg-btn-content">اطلب الخدمة الآن</span>

@@ -81,7 +81,7 @@
               </li>
             </ul>
 
-            <a href="/contact" class="pkg-btn pkg-btn--basic">
+            <a href="https://wa.me/962777210884?text=I%20need%20a%20service" class="pkg-btn pkg-btn--basic">
               <span class="pkg-btn-bg"></span>
               <span class="pkg-btn-content">اطلب الخدمة الآن</span>
               <span class="pkg-btn-arrow">←</span>
@@ -145,7 +145,7 @@
               </li>
             </ul>
 
-            <a href="/contact" class="pkg-btn pkg-btn--featured">
+            <a href="https://wa.me/962777210884?text=I%20need%20a%20service" class="pkg-btn pkg-btn--featured">
               <span class="pkg-btn-shine"></span>
               <span class="pkg-btn-content">اطلب الخدمة الآن</span>
               <span class="pkg-btn-arrow">←</span>
@@ -209,12 +209,12 @@
             </ul>
 
             <div class="premium-btns">
-              <a href="/contact" class="pkg-btn pkg-btn--premium-consult">
+              <a href="https://wa.me/962777210884?text=I%20need%20a%20service" class="pkg-btn pkg-btn--premium-consult">
                 <span class="pkg-btn-bg pkg-btn-bg--premium"></span>
                 <span class="pkg-btn-content">احجز استشارة مجانية</span>
                 <span class="pkg-btn-arrow">←</span>
               </a>
-              <a href="/contact" class="pkg-btn pkg-btn--premium-price">
+              <a href="https://wa.me/962777210884?text=I%20need%20a%20service" class="pkg-btn pkg-btn--premium-price">
                 اطلب السعر
               </a>
             </div>

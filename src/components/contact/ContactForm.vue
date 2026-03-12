@@ -223,8 +223,8 @@ const { elRef, visible } = useReveal(0.08);
 
 
 const EMAILJS_SERVICE_ID  = "service_3qzvpod";   
-const EMAILJS_TEMPLATE_ID = "template_fdefmeg";  // 🔧 مثال: template_xy34zw
-const EMAILJS_PUBLIC_KEY  = "geey-NnIRPvEN-FfX";   // 🔧 مثال: AbCdEfGhIjKlMnOp
+const EMAILJS_TEMPLATE_ID = "template_fdefmeg"; 
+const EMAILJS_PUBLIC_KEY  = "geey-NnIRPvEN-FfX";  
 
 onMounted(() => {
   if (window.emailjs) return; // already loaded
