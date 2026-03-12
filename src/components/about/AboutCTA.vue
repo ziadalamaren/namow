@@ -9,7 +9,7 @@
         <p class="cta-desc">احجز استشارة مجانية وسنساعدك على رسم خارطة طريق حضورك الرقمي.</p>
       </div>
       <div class="cta-action-side">
-        <a href="#contact" class="cta-btn-primary">
+        <a href="/contact" class="cta-btn-primary">
           <span class="cta-btn-fill"></span>
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
