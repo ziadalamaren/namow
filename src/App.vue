@@ -1,12 +1,6 @@
 <script setup>
-</script>
-
-<template>
-  <router-view />
-</template>
-
-<script setup>
 import { ref, onMounted } from "vue";
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 
 const dark = ref(false);
 
@@ -21,3 +15,8 @@ function toggleDark() {
   localStorage.theme = dark.value ? "dark" : "light";
 }
 </script>
+
+<template>
+  <router-view />
+  <SpeedInsights />
+</template>
